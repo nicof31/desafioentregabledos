@@ -3,7 +3,7 @@ import ProductManager from "./ProductManager/ProductManager.js";
 //SECUENCIA 1
 const productList = new ProductManager("./files/Productos.json");
 
-/*------------------------------------SECUENCIA 2-------------------------*
+/*------------------------------------SECUENCIA 2-------------------------*/
 // productList.getProducts(); //devuelve []
 
 
