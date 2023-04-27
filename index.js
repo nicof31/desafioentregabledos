@@ -13,6 +13,11 @@ const productList = new ProductManager("./files/Productos.json");
   //agrego producto 2
 //await productList.addProduct("producto prueba 2","Este es un producto prueba",400,"Sin imagen","abc124",52);
 
+//nota: el await permite la carga de productos en simultaneo
+
+  //error carga producto, se carga producto idem al anterior
+//await productList.addProduct("producto prueba 2","Este es un producto prueba",400,"Sin imagen","abc124",52);
+
 /*----------------------------------SECUENCIA 4--------------------------*/
 //verificar archivo Productos.JSON que el objeto este agregado y sin repetirse
 
